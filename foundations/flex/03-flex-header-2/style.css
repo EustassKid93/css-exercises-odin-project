@@ -46,3 +46,31 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Solution */
+.header {
+  display: flex;
+  border: 3px solid red;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  border: 3px solid green;
+  padding-left: 0;
+  gap: 16px;
+}
+
+.right-button {
+  display: flex;
+  border: 3px solid blue;
+  gap: 16px;
+  align-items: center;
+}
+
+.link-and-button {
+  display: flex;
+  border: 3px solid orange;
+  width: 100%;
+  justify-content: space-between;
+}
